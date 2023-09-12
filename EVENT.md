@@ -651,8 +651,7 @@ closely understand how noise is applied in the API.
 
 #### Verbose debugging reports
 
-We also introduce a debugging framework to allow developers to monitor certain
-failures in the attribution registrations.
+We also introduce a debugging framework to allow developers to monitor certain [failures]([url](https://github.com/WICG/attribution-reporting-api/blob/main/verbose_debugging_reports.md)) in the attribution registrations.
 
 The browser will send non-credentialed secure HTTP `POST` requests to the
 reporting endpoints, see [below](#reporting-endpoints). The report data is
